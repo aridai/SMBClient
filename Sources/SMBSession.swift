@@ -221,9 +221,11 @@ public class SMBSession {
     }
 
     private func attemptConnectionWithSessionPointer(smbSession: OpaquePointer?) -> SMBSessionError? {
+        /*
         if !self.deviceIsOnWiFi {
             return SMBSessionError.notOnWiFi
         }
+        */
 
         // if we're connecting from a dowload task, and the sessions match, make sure to refresh them periodically
         if self.rawSession == smbSession {
