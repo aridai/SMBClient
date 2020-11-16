@@ -8,12 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name = 'SMBClient'
-  s.version = '0.0.10'
+  s.version = '0.0.10.01'
   s.summary = 'SMBClient is simple SMB client for iOS apps. It allows connecting to SMB devices.'
   s.homepage = "https://github.com/filmicpro/SMBClient"
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.author = { 'Seth Faxon' => 'seth@filmicpro.com' }
-  s.source = { :git => "https://github.com/filmicpro/SMBClient.git", :tag => "#{s.version}" }
+  s.source = { :git => "https://github.com/aridai/SMBClient.git", :tag => "#{s.version}" }
   s.ios.deployment_target = '10.0'
   s.swift_version = '4.0'
   s.source_files  = ["Sources/**/*.swift", "libdsm/**/*.h"]
